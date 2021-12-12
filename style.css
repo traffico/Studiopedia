@@ -1,0 +1,167 @@
+.history{
+    box-shadow: 5px 2px 4px 3px black;
+    padding-left: 6px;
+    padding-top: 10px;
+    padding-bottom: 1px;
+  
+    box-sizing: border-box;
+    width: 900px;
+    
+   
+    margin: auto;
+     color: chocolate;
+     font-weight: bold;
+
+    background-color: white;
+}
+.history:hover{
+    transform: scale(1.05);
+}
+h3{
+    font-family: 'Courier New', Courier, monospace;
+}
+p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.read{
+    color: white;
+    font-style: italic;
+    font-size: 18px;
+    font-family: monospace;
+}
+body{
+    background: url("cover.jpg");
+    background-size: cover; 
+    background-position-x: center;
+   background-repeat: no-repeat;
+   overflow-x: scroll;
+}
+
+img{
+    width: 50px;
+    height: 50px;
+    margin-top: 9px;
+}
+#federal{
+     /* color: rgba(255, 0, 0, 0.637);  */
+     color:  chocolate;
+    /* color: white; */
+    font-family: cursive;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 45px;
+    font-weight: bold;
+    word-spacing: 3px;
+    margin-top: 31px;
+    background-color: whitesmoke;
+    border-top: solid chocolate 3px;
+    border-right: solid chocolate 3px;
+    border-radius: 14px 13px 14px 13px;
+}
+.allcontent{
+    padding-bottom: 22px;
+    padding-top: 12px;
+    text-align: center;
+    margin-right: 8px;
+}
+.top{
+    display: flex;
+    justify-content: center;
+   
+}
+.courses{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.next{
+    margin-top: 30px;
+}
+.nextbutton{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 30px;
+    padding-left: 30px;
+    color: red;
+    font-size: 17px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgb(255, 255, 255);
+}
+.nextbutton:hover{
+    transform: scale(1.08);
+}
+.calitrologo{
+    width: 75px;
+    height: 70px;
+    margin-top: 29px;
+    border-radius: 30px 1px 23px 2px;
+}
+a{
+    text-decoration: none;
+}
+.economics{
+    margin-top: 9px;
+
+}
+.geology{
+     margin-top: 9px;
+
+}
+.accounting{
+      margin-top: 9px;
+
+}
+.engineering{
+      margin-top: 9px;
+ 
+}
+.applied{
+     margin-top: 9px;
+
+}
+.law{
+      margin-top: 9px;
+  
+}
+@media (max-width: 480px) {
+    #federal{
+        font-size: 9vw;
+    }
+    .calitrologo{
+        width: 19vw;
+    }
+    .history{
+        width: 90vw;
+    }
+    .nextbutton{ 
+        font-size: 4vw;
+    }
+}
+@media (max-width: 767px) {
+    #federal{
+        font-size: 9vw;
+    }
+    .calitrologo{
+        width: 19vw;
+    }
+    .history{
+        width: 90vw;
+    }
+    .nextbutton{ 
+        font-size: 4vw;
+    }
+}
+@media (max-width: 1024px) {
+    #federal{
+        font-size: 7vw;
+    }
+    .calitrologo{
+        width: 14vw;
+        height: 12vw;
+    }
+    .history{
+        width: 90vw;
+    }
+    .nextbutton{ 
+        font-size: 2vw;
+    }
+}
